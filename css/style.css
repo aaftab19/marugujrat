@@ -36,7 +36,7 @@ input[type="button"], input[type="submit"] {
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: 'Comfortaa', cursive;
 }
 p {
 	margin: 0;
@@ -172,7 +172,7 @@ span {
 .top-bar {
     position: absolute;
     z-index: 999;
-    background: rgba(255, 255, 255, 0.58);
+    background: rgba(255, 255, 255, 0.7);
     top: 8%;
     width: 100%;
 }
@@ -459,21 +459,12 @@ nav.linkEffects.linkHoverEffect_12 ul {
     background: url(../images/s3.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
-.slider-info3 {
-    position: static; 
-    width: 100%;
-    min-height:800px;
-    padding: 320px 0;
-    background: url(../images/s4.jpg) no-repeat 0px 0px;
-    background-size: cover;
-}
-.slider-info img,.slider-info1 img,.slider-info2 img, .slider-info3 img
-{
+.slider-info img,.slider-info1 img,.slider-info2 img {
     width: 150px;
     margin: 0 auto;
     margin-bottom: 2.5em;
 }
-.slider-info h3, .slider-info1 h3, .slider-info2 h3,.slider-info3 h3 {
+.slider-info h3, .slider-info1 h3, .slider-info2 h3 {
     font-size: 45px;
     font-weight: 600;
     color: #FFF;
@@ -484,7 +475,7 @@ nav.linkEffects.linkHoverEffect_12 ul {
     margin-bottom: .5em;
 }
 
-.slider-info p, .slider-info1 p, .slider-info2 p,.slider-info3 p {
+.slider-info p, .slider-info1 p, .slider-info2 p {
     font-size: 14px;
     font-weight: 100;
     color: #d3d8d8;
@@ -590,11 +581,11 @@ a.navbar-brand span {
     color: #ff4f81;
     text-shadow: none;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     letter-spacing: 2px;
 }
 .cl-effect-15 a::before {
-	color: #168eea;
+	color: #006699;
 	content: attr(data-hover);
 	position: absolute;
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -604,9 +595,9 @@ a.navbar-brand span {
 
 .cl-effect-15 a:hover::before,
 .cl-effect-15 a:focus::before {
-	-webkit-transform: scale(0.9);
-	-moz-transform: scale(0.9);
-	transform: scale(0.9);
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
 	opacity: 0;
 }
 nav#cl-effect-15 ul li {
@@ -932,7 +923,7 @@ h3.heading,h2.heading {
     font-size: 86px;
     width: 12%;
     padding: 0;
-    color: #ff4f81;
+    color: #212121;
 }
 .about img {
     width: 100%;
