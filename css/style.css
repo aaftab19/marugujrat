@@ -2383,3 +2383,9 @@ a.w3_agile_vimeo:hover{
 	}
 }
 /* //Responsive design */
+
+.trans
+{
+	background-color:#000;
+	background:rgba(1,1,1,0.4);
+}
