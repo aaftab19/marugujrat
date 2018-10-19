@@ -1315,6 +1315,7 @@ iframe {
 }
 .center-container {
     background: rgba(0, 0, 0, 0.45);
+	height:700px;
 }
 .readmore-w3 {
     float: left;
